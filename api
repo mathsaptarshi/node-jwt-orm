@@ -1,0 +1,43 @@
+http://localhost:4000/api/auth/signin
+{
+	"email": "saptarshi@gmail.com",
+	"password": "123456"
+}
+
+http://localhost:4000/api/auth/signup
+{
+	"name": "Rupam",
+	"username": "Rupam",
+	"email": "rupam@gmail.com",
+	"roles": ["user"],
+	"password": "123456"
+}
+
+http://localhost:4000/api/cab/create
+{
+		"regno": "123123",
+        "company": "HONDA",
+        "model": "lio2",
+        "type": "Unknown",
+        "state": "WestBengal",
+        "district": "Kolkata",
+        "postalcode": "700001",    
+}
+
+get::http://localhost:4000/api/cab
+
+get all crew::: http://localhost:4000/api/crew
+
+
+
+http://localhost:4000/api/crew/create
+{
+		"name": "Unknown",
+        "phone": "9876543210",
+        "email": "lio@gmail.com",
+        "license": "Unknown",
+        "address": "WestBengal bla bla bla",
+        "photo": "photourl",
+        "info": "infotest",
+        "experience": "2"   
+}
